@@ -1,10 +1,11 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{html,js}",
-  ],
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'screen-navbar-player': 'calc(100vh - 6rem - 6rem)'
+      }
+    },
   },
   plugins: [],
 }
