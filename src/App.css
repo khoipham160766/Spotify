@@ -1,0 +1,13 @@
+.play-music{
+    background-color: rgb(15 23 42 / 1) !important;
+    height: 6rem !important;
+    color: #ffffff !important;
+}
+.rhap_time {
+    color: #ffffff !important;
+}
+
+::selection{
+    background-color: transparent;
+    color: turquoise;
+}
